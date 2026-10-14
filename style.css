@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #670626;
+  width: 100%;
+  border-left: 5px solid #bad797;
+}
+*{
+  box-sizing:border-box;
+}
+.box {
+  background-color: #e7dbcc;
+  width: 60%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  border-left: 5px solid #bad797;
+}
+
+a {
+  text-decoration: none;
+  color: #670626;
+  padding: 10px;
+  display: inline-block;
+  border:#670626 3px solid;
+  border-radius: 10px;
+
+}
+
+.content{
+    text-align: center;
+}
+.container {
+  padding: 30px;
+}
+.box .aboutme span{
+  color: #670626;
+}
+.about h2
+{
+    border-bottom: solid #bad797 5px ;
+}
+.box .img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: inline-start;
+  margin-right: 25px;
+}
+
+
+.about{
+    float: left;
+}
+.box .projects{
+  background-color: #bad79790;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px;
+  border: #e7dbcc 10px solid;
+}
+
+.box .projects span{
+  color: #670626;
+}
+.clear{
+  clear: both;
+}
+
+.box .exp
+{
+  background-color: #bad79790;
+  border-left: #670626 2px solid;
+  padding: 2px 20px 10px 10px;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+.box .exp span{
+  color: #670626;
+}
+
+.box .exp img{
+  width: 75px;
+  margin-top: 20px;
+  float: inline-start;
+
+}
+
+.box .exp .card{
+  float:inline-start;
+  padding: 20px;
+}
+.Reserved
+{
+  background-color: #afa292;
+  width: 60%;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.Reserved span{
+  color: #670626;
+}
